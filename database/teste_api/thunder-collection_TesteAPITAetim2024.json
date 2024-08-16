@@ -1,0 +1,122 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "TesteAPITAetim2024",
+    "collectionId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+    "dateExported": "2024-08-16T14:31:19.540Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "efcc48f9-4b81-49c2-82b4-6d239e7732de",
+            "name": "usuarios",
+            "containerId": "",
+            "created": "2024-08-16T14:09:21.016Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e0e5f01d-77c8-48ca-ab0f-035f99185c67",
+            "name": "pedidos",
+            "containerId": "",
+            "created": "2024-08-16T14:29:30.003Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "83014d88-cee7-467a-9918-02a7973fa681",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "efcc48f9-4b81-49c2-82b4-6d239e7732de",
+            "name": "listar",
+            "url": "http://localhost:3333/usuarios",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-16T14:10:04.346Z",
+            "modified": "2024-08-16T14:11:53.739Z",
+            "headers": []
+        },
+        {
+            "_id": "ffa7ae4c-926d-4f80-a33c-5103f2ea7b99",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "e0e5f01d-77c8-48ca-ab0f-035f99185c67",
+            "name": "listar",
+            "url": "http://localhost:3333/pedidos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-16T14:29:30.003Z",
+            "modified": "2024-08-16T14:29:47.910Z",
+            "headers": []
+        },
+        {
+            "_id": "10412dad-1274-454d-b72c-b3e1622460a8",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "efcc48f9-4b81-49c2-82b4-6d239e7732de",
+            "name": "cadastrar",
+            "url": "http://localhost:3333/usuarios",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-16T14:20:42.030Z",
+            "modified": "2024-08-16T14:23:13.828Z",
+            "headers": []
+        },
+        {
+            "_id": "f1d628c8-08a7-4114-a694-cecc25d52de1",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "e0e5f01d-77c8-48ca-ab0f-035f99185c67",
+            "name": "cadastrar",
+            "url": "http://localhost:3333/pedidos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-16T14:29:30.004Z",
+            "modified": "2024-08-16T14:29:56.402Z",
+            "headers": []
+        },
+        {
+            "_id": "9e6b7010-deec-4743-890a-3fb672b2ecc5",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "efcc48f9-4b81-49c2-82b4-6d239e7732de",
+            "name": "editar",
+            "url": "http://localhost:3333/usuarios",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2024-08-16T14:20:44.788Z",
+            "modified": "2024-08-16T14:23:23.522Z",
+            "headers": []
+        },
+        {
+            "_id": "7c3cf30a-6728-4d8e-929c-d72c8897157b",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "e0e5f01d-77c8-48ca-ab0f-035f99185c67",
+            "name": "editar",
+            "url": "http://localhost:3333/pedidos",
+            "method": "PATCH",
+            "sortNum": 30000,
+            "created": "2024-08-16T14:29:30.005Z",
+            "modified": "2024-08-16T14:30:04.700Z",
+            "headers": []
+        },
+        {
+            "_id": "b0477bc5-984b-49d7-8537-2f37d47ac330",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "efcc48f9-4b81-49c2-82b4-6d239e7732de",
+            "name": "apagar",
+            "url": "http://localhost:3333/usuarios",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-08-16T14:20:47.206Z",
+            "modified": "2024-08-16T14:23:30.345Z",
+            "headers": []
+        },
+        {
+            "_id": "50414ce9-6c63-4b88-9c4e-7f6313e4b4db",
+            "colId": "fcd1d811-73d5-4618-9e0e-ac8ebff06137",
+            "containerId": "e0e5f01d-77c8-48ca-ab0f-035f99185c67",
+            "name": "apagar",
+            "url": "http://localhost:3333/pedidos",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-08-16T14:29:30.006Z",
+            "modified": "2024-08-16T14:30:10.709Z",
+            "headers": []
+        }
+    ],
+    "ref": "7BeRLdcyTV8OmsVVvSfcBkGhv3GR6isu0cx3tNn8RsgOwSnCNLX6p8EIXpKs0ZGhY1RWbjHajg5GxKuQWvJVOQ"
+}
